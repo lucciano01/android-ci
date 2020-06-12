@@ -18,7 +18,7 @@ public class IntentTest {
     @Rule
     public IntentsTestRule<MainActivity> intentsTestRule = new IntentsTestRule<>(MainActivity.class);
 
-   // @Test
+    @Test
     public void deveriaExecutarIntent(){
         onView(withId(R.id.buttonIr)).perform(click());
         intended(hasComponent(IndexActivity.class.getName()));
