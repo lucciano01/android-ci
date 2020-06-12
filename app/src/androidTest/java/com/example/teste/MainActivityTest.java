@@ -22,7 +22,7 @@ public class MainActivityTest {
     public ActivityTestRule<MainActivity> testRule = new ActivityTestRule<>(MainActivity.class);
     private String nome = "Teste";
 
-   // @Test
+    @Test
     public void deveriaExibirONome(){
         //inserir o nome
         onView(withId(R.id.editTextNome)).perform(typeText(nome));
@@ -35,7 +35,7 @@ public class MainActivityTest {
 
     }
 
-    //@Test
+    @Test
     public void deveriaExibirMensagemDeCampoObrigatorio(){
         onView(withId(R.id.buttonEnviar)).perform(click());
         onView(withId(R.id.textMensagem)).check(matches(isDisplayed()));
