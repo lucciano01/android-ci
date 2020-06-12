@@ -18,6 +18,8 @@ import static org.junit.Assert.*;
 
 public class MainActivityTest {
 
+    //comentário para verificaçao do build automatizado com Jenkins
+
     @Rule
     public ActivityTestRule<MainActivity> testRule = new ActivityTestRule<>(MainActivity.class);
     private String nome = "Teste";
