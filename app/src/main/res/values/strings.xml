@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Teste</string>
+    <string name="textNome">Nome</string>
+    <string name="btn_adicionar">Adicionar</string>
+    <string name="campo_obrigatorio">Campo Obrigatório</string>
+    <string name="btn_ir">Ir</string>
+</resources>
