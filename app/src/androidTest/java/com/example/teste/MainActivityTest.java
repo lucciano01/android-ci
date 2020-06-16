@@ -39,7 +39,7 @@ public class MainActivityTest {
         //acionar o botao
         onView(withId(R.id.buttonEnviar)).perform(click());
         //verificar se o texto esta sendo exibido
-        onView(withId(R.id.textViewNomeRecebido)).check(matches(withText(nome)));
+        onView(withId(R.id.textViewNomeRecebido)).check(matches(withText("Luciano")));
 
     }
 
